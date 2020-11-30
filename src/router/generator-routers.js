@@ -13,7 +13,11 @@ const constantRouterComponents = {
     'system/menu': () => import('@/views/system/menu'),
     'system/resource': () => import('@/views/system/resource'),
     // 业务组件
-    'user/list': () => import('@/views/user/list')
+    'user/list': () => import('@/views/user/list'),
+    'channel/list': () => import('@/views/operate/channel'),
+    'product/list': () => import('@/views/operate/product'),
+    'product/detail': () => import('@/views/operate/productDetail'),
+    'operate/app': () => import('@/views/operate/app')
 }
 
 // 404路由
